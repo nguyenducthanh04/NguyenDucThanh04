@@ -416,9 +416,196 @@ nav li:hover,
 nav li.active {
   color: red;
 }
-@media screen and (max-width: 844px) {
+/*IPhone X*/
+@media screen and (max-width: 380px) {
   .introduce {
-    width: 380px;
+    width: 375px;
+    font-size: 1.2rem;
+  }
+  .btn-contact {
+    margin-top: 50px;
+  }
+  .generality {
+    margin-left: 0;
+    /* width: 380px; */
+  }
+  .about_info {
+    display: block;
+    text-align: center;
+  }
+  .character {
+    width: 375px;
+    font-size: 1.2rem;
+  }
+  .about li {
+    font-size: 1.2rem;
+  }
+  .img-avt {
+    text-align: center;
+  }
+  .list-project {
+    display: block;
+  }
+  .list-project img {
+    width: 365px;
+    height: 182px;
+    margin-left: 5px;
+  }
+  .project-info {
+    text-align: center;
+  }
+  .project-info h2 {
+    margin-top: 30px;
+  }
+  .project-info p {
+    width: 375px;
+    font-size: 1.2rem;
+  }
+  .btn {
+    width: 375px;
+  }
+  .scroll-link {
+    font-size: 1.2rem;
+  }
+  .btn ul li {
+    margin: 0 8px;
+  }
+  .btn-redirect {
+    display: block;
+    width: 375px;
+  }
+  .about {
+    margin-top: 20px;
+  }
+}
+/*Iphone XR & 11*/
+@media screen and (width: 414px) {
+  .introduce {
+    width: 414px;
+    font-size: 1.2rem;
+  }
+  .btn-contact {
+    margin-top: 50px;
+  }
+  .generality {
+    margin-left: 0;
+    /* width: 380px; */
+  }
+  .about_info {
+    display: block;
+    text-align: center;
+  }
+  .character {
+    width: 414px;
+    font-size: 1.2rem;
+  }
+  .about li {
+    font-size: 1.2rem;
+  }
+  .img-avt {
+    text-align: center;
+  }
+  .list-project {
+    display: block;
+  }
+  .list-project img {
+    width: 404px;
+    height: 182px;
+    margin-left: 5px;
+  }
+  .project-info {
+    text-align: center;
+  }
+  .project-info h2 {
+    margin-top: 30px;
+  }
+  .project-info p {
+    width: 414px;
+    font-size: 1.2rem;
+  }
+  .btn {
+    width: 414px;
+  }
+  .scroll-link {
+    font-size: 1.2rem;
+  }
+  .btn ul li {
+    margin: 0 8px;
+  }
+  .btn-redirect {
+    display: block;
+    width: 414px;
+  }
+  .about {
+    margin-top: 20px;
+  }
+}
+/*Iphone 11Pro*/
+@media screen and (width: 375px) and (max-height: 812px) {
+  .introduce {
+    width: 375px;
+    font-size: 1.2rem;
+  }
+  .btn-contact {
+    margin-top: 50px;
+  }
+  .generality {
+    margin-left: 0;
+    /* width: 380px; */
+  }
+  .about_info {
+    display: block;
+    text-align: center;
+  }
+  .character {
+    width: 375px;
+    font-size: 1.2rem;
+  }
+  .about li {
+    font-size: 1.2rem;
+  }
+  .img-avt {
+    text-align: center;
+  }
+  .list-project {
+    display: block;
+  }
+  .list-project img {
+    width: 375px;
+    height: 182px;
+    margin-left: 5px;
+  }
+  .project-info {
+    text-align: center;
+  }
+  .project-info h2 {
+    margin-top: 30px;
+  }
+  .project-info p {
+    width: 414px;
+    font-size: 1.2rem;
+  }
+  .btn {
+    width: 375px;
+  }
+  .scroll-link {
+    font-size: 1.2rem;
+  }
+  .btn ul li {
+    margin: 0 8px;
+  }
+  .btn-redirect {
+    display: block;
+    width: 375px;
+  }
+  .about {
+    margin-top: 20px;
+  }
+}
+/*IPHONE 12 & 12PRO*/
+@media screen and (max-width: 390px) and (max-height: 844px) {
+  .introduce {
+    width: 390px;
     font-size: 1.2rem;
   }
   .btn-contact {
@@ -446,9 +633,9 @@ nav li.active {
     display: block;
   }
   .list-project img {
-    width: 375px;
+    width: 380px;
     height: 182px;
-    margin-left: 7.5px;
+    margin-left: 5px;
   }
   .project-info {
     text-align: center;
@@ -477,32 +664,68 @@ nav li.active {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 812px) {
+@media screen and (width: 428px) {
   .introduce {
-    width: 375px;
+    width: 428px;
     font-size: 1.2rem;
+  }
+  .btn-contact {
+    margin-top: 50px;
+  }
+  .generality {
+    margin-left: 0;
+    /* width: 380px; */
+  }
+  .about_info {
+    display: block;
+    text-align: center;
   }
   .character {
-    width: 375px;
+    width: 428px;
     font-size: 1.2rem;
   }
+  .about li {
+    font-size: 1.2rem;
+  }
+  .img-avt {
+    text-align: center;
+  }
+  .list-project {
+    display: block;
+  }
   .list-project img {
-    width: 365px;
+    width: 418px;
     height: 182px;
     margin-left: 5px;
   }
+  .project-info {
+    text-align: center;
+  }
+  .project-info h2 {
+    margin-top: 30px;
+  }
   .project-info p {
-    width: 375px;
+    width: 428px;
     font-size: 1.2rem;
+  }
+  .btn {
+    width: 428px;
+  }
+  .scroll-link {
+    font-size: 1.2rem;
+  }
+  .btn ul li {
+    margin: 0 8px;
   }
   .btn-redirect {
     display: block;
-    width: 375px;
+    width: 428px;
   }
-  .btn {
-    width: 375px;
+  .about {
+    margin-top: 20px;
   }
 }
+
 @media screen and (max-width: 520px) {
   .screen-body {
     flex-direction: column;
